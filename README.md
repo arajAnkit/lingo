@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Lingo - Mordern Solution for Language Learning
 
-First, run the development server:
+**Lingo** is a cool online service that helps you learn languages with fun lessons. You’ll hear AI voices that sound like real people guiding you through each step. Lingo is all about making language learning easy, engaging, and rewarding. Whether you’re just starting or want to practice more, Lingo’s got your back! 🌟
+## 🤖 Features
+
+- **🌐 Next.js 14 & Server Actions:** Utilizes the latest Next.js framework for robust server-side operations.
+- **🗣 AI Voices:** Integrates Elevenlabs AI for realistic and diverse AI-generated voices.
+- **🎨 Component System:** Features a beautiful UI with components from Shadcn UI.
+- **🎭 Characters:** Boasts amazing characters designed by KenneyNL.
+- **🔐 Authentication:** Secures user accounts with Clerk authentication.
+- **🔊 Sound Effects:** Enhances user experience with engaging sound effects.
+- **❤️ Hearts System:** Engages users with a heart-based progress system.
+- **🌟 Points/XP System:** Motivates learning with points and experience points.
+- **💔 No Hearts Left Popup:** Alerts users when they run out of hearts.
+- **🚪 Exit Confirmation Popup:** Confirms with users before they exit the lesson.
+- **🔄 Practice Old Lessons:** Allows users to practice old lessons to regain hearts.
+- **🏆 Leaderboard:** Encourages competition with a user leaderboard.
+- **🗺 Quests Milestones:** Sets milestones for users to achieve through quests.
+- **🛍 Shop System:** Lets users exchange points for hearts in the shop.
+- **💳 Pro Tier:** Offers unlimited hearts through a Stripe-powered Pro tier.
+- **🏠 Landing Page:** Welcomes users with an informative and attractive landing page.
+- **📊 Admin Dashboard:** Provides an admin dashboard using React Admin for management.
+- **🌧 ORM:** Manages database objects with DrizzleORM.
+- **💾 PostgresDB:** Stores data securely using NeonDB.
+- **🚀 Deployment:** Deploys seamlessly on Vercel for high availability.
+- **📱 Mobile Responsiveness:** Ensures a smooth experience across mobile devices.
+## ⚙️ Tech Stack
+
+- **🌐 Node.js:** Powers the server-side for a solid backend foundation.
+- **🚀 Next.js:** Boosts website performance with server-side rendering.
+- **📤 Uploadcare:** Manages file uploads with ease.
+- **🎨 Tailwind CSS:** Offers utility-first styling for custom designs.
+- **🖌️ Shadcn UI:** Provides ready-made UI components for quick design.
+- **🔒 Clerk Authentication:** Secures user sign-ins and data access.
+- **💳 Stripe:** Processes payments and handles financial transactions.
+- **🗃️ Drizzle:** Simplifies database management with a type-safe approach.
+- **💾 PostgresDB:** Stores data securely using NeonDB.
+## 🤸 Run Locally
+
+Follow these steps to set up the project locally on your machine.
+
+Prerequisites
+
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node JS](https://nodejs.org/en)
+- [NPM](https://www.npmjs.com/) (Node Package Manager)
+
+Clone the project
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone https://github.com/arajAnkit/lingo.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to the project directory
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+  cd lingo
+```
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Install dependencies
 
-## Learn More
+```bash
+  npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+Start the server
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+  npm run dev
+```
+- **Make sure Set Up Environment Variables**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🚨 Contributing
 
-## Deploy on Vercel
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
